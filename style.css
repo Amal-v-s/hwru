@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(190, 245, 245);
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+
+}
+.head{
+ 
+    align-items: center;
+    text-align: center;
+    /* line-height: 100%; */
+    background-color: rgb(131, 196, 196);
+    /* font-family: monospace; */
+}
+.head h1{
+    
+    background-color: rgb(131, 196, 196);;
+    padding-top: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+}
+#head-links li a{
+    padding-left: 5em;
+}
+.hwru{
+  
+    text-decoration: none;
+    padding-left: 30%;
+    /* padding-left: 40%; */
+    font-size: 3em;
+    color: rgb(16, 83, 104);
+}
