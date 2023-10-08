@@ -1,33 +1,56 @@
-body{
-    background-color: rgb(190, 245, 245);
-    font-family: monospace;
+html, body{
+    background-color: darkgrey;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 5px solid rebeccapurple; */
+}
+
+.container  li{
+    list-style-type: none;
+    border: 5px solid #e8edcc;
+    border-radius: 20px;
+    padding: 1.5em;
 
 }
-.head{
- 
-    align-items: center;
-    text-align: center;
-    /* line-height: 100%; */
-    background-color: rgb(131, 196, 196);
-    /* font-family: monospace; */
-}
-.head h1{
+.container a{
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+    color: #000;
     
-    background-color: rgb(131, 196, 196);;
-    padding-top: 0;
-    font-family: 'Courier New', Courier, monospace;
+}
+/* .nav-icon{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+} */
+.projects h2{
+    margin: 0;
     font-size: 4em;
 }
-#head-links li a{
-    padding-left: 5em;
+
+.projects{
+    margin-left: 30px;   
 }
-.hwru{
-  
-    text-decoration: none;
-    padding-left: 30%;
-    /* padding-left: 40%; */
+
+.projects li{
     font-size: 3em;
-    color: rgb(16, 83, 104);
 }
+
+.domain-text{
+    /* color: darkgreen; */
+    font-size: 2.5em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+a{  color: #000;
+    text-decoration: none;}
+    
