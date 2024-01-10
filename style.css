@@ -1,56 +1,108 @@
-html, body{
-    background-color: darkgrey;
-    font-family: 'Courier New', Courier, monospace;
+body{
+    background: #bed5e4;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
-
-.container{
+.section{
     display: flex;
-    justify-content: space-evenly;
-    /* border: 5px solid rebeccapurple; */
 }
+.intro-img{
+    outline:5px solid black;
+  outline-offset: -4px;
 
-.container  li{
-    list-style-type: none;
-    border: 5px solid #e8edcc;
+}
+.header{
+    display: flex;
+
+}
+.header img{
+    
+    padding-left: auto;
+}
+h2{
+    padding: 0;
+    margin: 0;
+}
+.logo-text{
+    margin-left: 10em;
+}
+h3{ padding:0;
+    margin: 0;
+    line-height: 50px; padding:1vw 0vw; font-size: 4vh; margin-bottom: 0px;
+    text-indent: 8vw;
+}
+.work{
+
+    
+    width: 90%;
+    margin: auto;
+
+
+}
+.work img{
+    
+    height: 100%;
+    width: 100%;
+    padding-top: 40px;
     border-radius: 20px;
-    padding: 1.5em;
 
 }
-.container a{
-    text-decoration: none;
-    font-size: 2em;
-    font-weight: 700;
-    color: #000;
+.end{
+    width:37vw; height: 40vw; border: solid 5px black;
+}
+.trans{
+    width:15vw;
+}
+.start{
+    width:40vw; height: 40vw; border-radius: 10px;border: solid 5px black;
+}
+.column1, .column2{
+    gap: 30px;
+}
+.intro{
+    width: 90%;
+    margin: auto;
+}
+.sneharamam{
+    text-align: center; font-size:7vw; padding: 2vh 0; margin: 0; color: rgb(22, 109, 51);
+}
+.nss{
+    margin-left: 30%;
+}
+.main-textintro{font-size: 5vh;}
+@media screen and (max-width: 1000px) {
     
-}
-/* .nav-icon{
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
+    .start,.end{
+    height: 350px;
+    width: 90%;
     
-} */
-.projects h2{
-    margin: 0;
-    font-size: 4em;
-}
-
-.projects{
-    margin-left: 30px;   
-}
-
-.projects li{
-    font-size: 3em;
-}
-
-.domain-text{
-    /* color: darkgreen; */
-    font-size: 2.5em;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-a{  color: #000;
-    text-decoration: none;}
+   }
+   .trans{
     
+    padding-left: 40%;
+   }
+   .logo-text{
+    margin-left: 20%;
+   }
+   .header p{
+    margin-top: 30px;
+    font-size: 5.5vw;
+    font-weight: bolder;
+  
+   }
+   .main-textintro{
+    font-size: 21px;
+    font-weight: bold;
+   }
+   .intro h3{
+    font-size: 18px;
+    line-height: 25px;
+   }
+}
+@media screen and (max-width: 740px) {
+    .ney{display: none;}
+} 
+@media screen and (min-width: 740px) {
+    .nta{display: none;}
+} 
