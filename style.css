@@ -106,3 +106,9 @@ h3{ padding:0;
 @media screen and (min-width: 740px) {
     .nta{display: none;}
 } 
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #abbaba;
+    color: #000;
+  }
